@@ -1,0 +1,77 @@
+body {background-color:black ;}
+h1,p,ol,h2,h3,h5{color:lightBlue;}
+div{border: 2px dashed green;
+margin:25px;
+  padding:10px;
+}
+/** Flag Shape **/
+.vertical-flag {
+  display: flex;
+  justify-content: space-evenly;
+}
+.horizontal-flag {
+  display: flex; 
+  flex-direction: column;
+}
+#netherlands {
+  border: 1px solid black;
+  margin: 10px;
+  width: 400px;
+  height: 200px;
+}
+.stripe {
+  margin: 0px;
+  width: 100%;
+  height: 100%;
+}
+#container {
+  border: 1px solid black;
+  width: 80%;
+}
+
+/** Text Classes **/
+.center {
+  text-align: center;
+  line-height: 200px;
+}
+.right {
+  text-align: right;
+}
+.large-text {
+  font-size: xx-large;
+}
+
+/** Color Classes **/
+#red {
+  background-color: red;
+}
+#white {
+  background-color: white;
+}
+#blue {
+  background-color: blue;
+}
+img{
+  margin=10px;
+  padding=20px;
+  border=5px
+}
+h1 {
+  text-align: center;
+}
+
+#title {
+  margin:auto;
+  padding: 0px;
+  height: 230px;
+  background-image:url("https://images.rbxcdn.com/076d146437ffc79cebc36bf2ded91196");
+}
+h2 {background-color:blue}
+h1 {
+  margin: 20px;
+  height: 100%;
+  top: 40px;
+}
+h1 {
+  font-size:100px;
+color:green;}
